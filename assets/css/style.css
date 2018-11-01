@@ -1,0 +1,45 @@
+﻿@import url(https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css);
+  body		{ font-family: 'NanumSquare', sans-serif; }
+.normal		{ font-weight: 400 }
+.bold		{ font-weight: 700 }
+.bolder		{ font-weight: 800 }
+.light		{ font-weight: 300 }
+
+.padding {
+  padding-top: 15%;
+}
+.padding-1 {
+  padding-top: 7px;
+}
+.padding-2 {
+  padding-top: 58.5px;
+}
+.padding-3 {
+  padding-bottom: 42.5px;
+}
+ body {
+   background: #fc00ff;  /* fallback for old browsers */
+   background: -webkit-linear-gradient(to left, #00dbde, #fc00ff);  /* Chrome 10-25, Safari 5.1-6 */
+   background: linear-gradient(to left, #00dbde, #fc00ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+ }
+ .footer {
+   background-color: #ffffff;
+   text-align: center;
+   padding-top: 57px;
+   padding-bottom: 57px;
+ }
+ .footer p {
+   margin: 7.5px;
+ }
+ .delay-0 {
+    animation-delay: 0.5s;
+}
+.delay-1 {
+   animation-delay: 2s;
+}
+.center {
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 100%;
+}
